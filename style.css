@@ -31,7 +31,7 @@ nav > div > a {
 
 .links {
 	display: flex;
-	justify-content: space-betweens;
+	justify-content: space-between;
 }
 
 p {
@@ -78,6 +78,7 @@ p {
 	width: 120%;
 	overflow-x: hidden;
 }
+
 .top-card {
 	display: flex;
 	justify-content: flex-start;
@@ -451,6 +452,7 @@ p {
 }
 .card-wrapper-rounded {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .email-wrapper > p {
@@ -527,6 +529,7 @@ p {
 	.card-wrapper-rounded {
 		justify-content: center;
 		align-items: center;
+		flex-wrap: nowrap;
 	}
 
 	.started-div > p {
